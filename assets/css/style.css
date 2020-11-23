@@ -1,0 +1,371 @@
+@font-face {
+    font-family: 'Roboto Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Roboto Regular'), url('fonts/Roboto-Regular.woff') format('woff');
+    }
+ 
+
+@font-face {
+    font-family: 'Optima';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima'), url('fonts/OPTIMA.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Italic'), url('fonts/Optima_Italic.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Medium'), url('fonts/Optima_Medium.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Optima Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Optima Bold'), url('fonts/OPTIMA_B.woff') format('woff');
+    }
+
+body{
+    font-family:'Roboto Regular';
+    color: #5A5A5A;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+
+.logo-wrapper > img{
+    max-width: 138px;
+}
+.main-nav {
+	border-bottom: 1px solid #e1e1e1;
+	-webkit-box-shadow: 0px 2px 3px rgba(225, 225, 225, 0.5);
+	-moz-box-shadow: 0px 2px 3px rgba(225, 225, 225, 0.5);
+	box-shadow: 0px 2px 3px rgba(225, 225, 225, 0.5);
+	background-color: white;
+	position: relative;
+	z-index: 10
+}
+.main-nav a {
+	color: #5A5A5A;
+}
+.main-nav a:hover {
+	color: #FF6B00;
+}
+.main-nav.second {
+	z-index: 2
+}
+
+.main-nav .second-list {
+	list-style: none;
+	margin-bottom: 0;
+	padding-left: 0
+}
+.main-nav .second-list li {
+	display: inline-block
+}
+.main-nav .second-list li:first-child {
+	margin-right: 1.3em
+}
+.navbar-nav .nav-item {
+	padding: 0 .5em;
+}
+.dropdown-menu {
+	padding: 0;
+	top: 95%
+}
+.dropdown-menu a {
+	padding: .5em 1em
+}
+.dropdown-menu a:hover,
+.dropdown-menu a:active {
+	color: #FF6B00
+}
+.dropdown-menu a:active {
+	background-color: white
+}
+.dropdown:hover .dropdown-menu {
+	display: block
+}
+@media (max-width: 767.98px) {
+	.main-nav .navbar-nav {
+		border-top: 1px solid #E1E1E1;
+		margin: 1em 0 0 0
+	}
+}
+@media only screen and (max-width: 991px) {
+	.dropdown:hover .dropdown-menu {
+		display: none
+	}
+	.dropdown .dropdown-menu.show {
+		display: block;
+		border: none
+	}
+	.dropdown .dropdown-menu.show a {
+		padding-left: 40px
+	}
+	.navbar-toggler {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		padding: 0
+	}
+}
+
+.banner-main-text{
+    color: #0F0600;
+    font-size: 56px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 66px;
+}
+.banner-text{
+    color: #5A5A5A;
+    font-family: Roboto Regular;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+}
+.btn-warning{
+    background :#FF6B00 !important;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 21px;
+    padding:12px 24px 12px 24px;
+}
+.why-text{
+    color:#141720;
+    font-size: 32px;
+    font-weight: bold;
+}
+.why-motor{
+    margin:10px 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.why-motor i{
+    color:#03DE73!important;
+}
+.compare-section{
+    padding-top:80px;
+    background: #F9FAFC;
+    padding-bottom:70px;
+}
+.compare-section h1{
+    color:#141720;
+    font-size: 32px;
+  font-weight: bold;
+  margin-bottom:40px;
+}
+.company-compare{
+    padding-top:15px;
+    padding-bottom:15px;
+    margin-bottom:20px;
+    background:#fff;
+    box-shadow: 0 2px 5px 0 rgba(195,195,195,0.5);
+}
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+  }
+input[type=checkbox] {
+display: none;
+}
+
+input[type=checkbox] + label:before {
+content: "\2714\0020";
+font-weight: bold;
+border: 0.1em solid rgb(228, 226, 226);
+border-radius: 0.4em;
+display: inline-block;
+width: 1.4em;
+height: 1.3em;
+padding-left: 0.2em;
+padding-bottom: 0.4em;
+vertical-align: bottom;
+color: transparent;
+margin-right:10px;
+}
+
+input[type=checkbox]:checked + label:before {
+background-color: #FF6B00;
+border-color: #FF6B00;
+color: #fff;
+}
+.company-compare .companylogo{
+    border:1px solid rgb(228, 226, 226);
+    padding:20px 10px 20px 10px;
+}
+.company-compare h5{
+    color: #141720;
+    font-size:20px;
+    font-weight: bold;
+}
+.company-compare .selected{
+    color:#FF6B00 !important;
+}
+.company-compare .towing-service h6, .company-compare .optional-policies h6, .company-compare .special-discount h6{
+    color: rgba(0,0,0,0.38);
+}
+.company-compare .towing-service, .company-compare .optional-policies, .company-compare .special-discount{
+    color: #000000;
+}
+.company-compare .optional-policies ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.company-compare .optional-policies ul li:before{
+    content:"\2022";
+}
+.text-danger {
+    color:#E71D36 !important;
+}
+.text-success {
+    color :#03DE73 !important;
+}
+.btn-default{
+    border: 1px solid #C3C3C3;
+    background-color: #FFFFFF;
+    font-family:'Roboto Regular';
+    color: #5A5A5A;
+    height: 46px;
+    width: 176px;
+}
+.faq-section h1{
+    color:#141720;
+    font-size: 32px;
+  font-weight: bold;
+  margin-bottom:40px;
+}
+.faq-section h5{
+    color: #0F0600;
+    font-size: 18px;
+    font-weight:bold;
+    border: 1px solid #E1E1E1;
+    background-color: #FFFFFF;
+    padding:15px 20px 15px 20px;
+    margin:0;
+}
+
+.panel-title {
+    position: relative;
+}
+.panel-default{
+  margin:0;
+    cursor:pointer;
+}
+.panel-title::after {
+    content: "\2304";
+    color: #333;
+    top:10px;
+    right: 20px;
+    position: absolute;
+    color:#FF6B00;
+}
+.panel-title[aria-expanded="true"]::after {
+    content: "\2303";
+    top:20px;
+    right: 20px;
+    position: absolute;
+    color:#FF6B00;
+}
+.panel-body{
+    border: 1px solid #E1E1E1;
+  background-color: #F7F8FC;
+    padding:25px;
+}
+.faq-section {
+    max-width:791px;
+    margin:0px auto;
+}
+
+.insurance-section h1{
+    color:#141720;
+    font-size: 32px;
+  font-weight: bold;
+  margin-bottom:40px;
+  margin-top:70px;
+}
+.insurance-section .card-body{
+padding-left:10px;
+padding-right:10px;
+}
+.insurance-section .card-title{
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+.insurance-section .card-text{
+    font-family:'Roboto Regular';
+    color: #787878;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 25px !important;
+}
+.insurance-section .btn-primary{
+    background:#fff;
+    color:#FF6B00;
+    border:0;
+    padding:10px;
+}
+footer{
+    padding-top:30px;
+    background:#0F0600;
+}
+footer i{
+    color:#fff !important;
+    opacity:0.7;
+    font-size:25px;
+}
+footer ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+footer ul li {
+    font-size:14px;
+    line-height:30px;
+}
+footer ul li:first-child{
+    color:#fff;
+    font-weight:bold;
+}
+footer ul li a {
+    color:#fff;
+}
+footer h6{
+    color:#fff;
+    font-size:13px;
+    font-weight:bold;
+}
+footer hr{
+    border:1px solid #383838;
+}
+footer span{
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+}
+@media screen and (max-width:767px){
+    footer {
+        text-align:center;
+    }
+}
+
+
