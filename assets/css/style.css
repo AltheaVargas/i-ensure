@@ -333,6 +333,10 @@ footer i{
     opacity:0.7;
     font-size:25px;
 }
+footer i:hover{
+    color:#FF6B00 !Important;
+    cursor :pointer;
+}
 footer ul{
     list-style:none;
     margin:0;
@@ -348,6 +352,10 @@ footer ul li:first-child{
 }
 footer ul li a {
     color:#fff;
+}
+footer ul li a:hover{
+    color:#FF6B00;
+    text-decoration: none;
 }
 footer h6{
     color:#fff;
@@ -368,4 +376,31 @@ footer span{
     }
 }
 
+footer .btn-warning{
+    max-width:300px;
+    width:300px;
+}
+
+
+.medical-insurance-deal{
+    margin-top:-50px;
+}
+.medical-insurance-deal h1{
+    font-size:28px;
+}
+.medical-insurance-deal div{
+    top:-30px;
+    position:relative;
+    font-size: 14px;
+    color: #656565;
+}
+.medical-insurance-deal input{
+    max-width: 267px !important;
+    border: 1px solid #E1E1E1;
+    background-color: #FFFFFF;
+    padding:10px 12px 10px 12px;
+    font-weight:bold;
+    top:-20px;
+    position: relative;
+}
 
